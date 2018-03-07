@@ -25,7 +25,8 @@ module.exports = () => {
       year: randomeInt(1980, new Date().getFullYear()),
       name: faker.random.words(),
       director: `${faker.name.firstName()} ${faker.name.lastName()}`,
-      genres: takeRandome(genres, 1, 3)
+      genres: takeRandome(genres, 1, 3),
+      rate: Math.round(Math.random() * 100) / 10
     }))
 
   return { movies }
