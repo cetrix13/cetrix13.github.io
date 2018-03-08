@@ -1,1 +1,1 @@
-web: json-server --watch index.js --port 8443
+web: json-server --watch index.js --port $PORT
