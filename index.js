@@ -20,7 +20,7 @@ const takeRandome = (array, a, b) => {
 
 module.exports = () => {
   const genres = ['comedy', 'action', 'sci-fi', 'criminal', 'drama', 'horror', 'detective']
-  const movies = randomeArray(50, 150)
+  const movies = Array.from({length: 30})
     .map(() => ({
       year: randomeInt(1980, new Date().getFullYear()),
       name: faker.random.words(),

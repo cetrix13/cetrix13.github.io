@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch index.js --port $PORT"
+    "start": "json-server --watch movies.json --port ${PORT-8050}"
   },
   "author": "",
   "license": "ISC",
