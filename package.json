@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch movies.json --port ${PORT-8050}"
+    "start": "json-server --watch movies.json",
+    "convert": "node converter.js"
   },
   "author": "",
   "license": "ISC",
