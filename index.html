@@ -2,31 +2,29 @@
 layout: default
 ---
 
-  {% for post in site.posts %}
-      <!-- START ARTICLE FEED -->
-      <section class="articles">
-        <div class="column is-8 is-offset-2">
-          <!-- START ARTICLE -->
-          <div class="card article">
-            <div class="card-content">
-              <div class="media">
-                <div class="media-center">
-                  <img src="/images/cli-brand.png" class="author-image">
-                </div>
-                <div class="media-content has-text-centered">
-
-                  <p class="title article-title"><a href="{{ site.baseurl }}{{ post.url | absolute_url }}">{{ post.title}}</a></p>
-                  <p class="subtitle is-6 article-subtitle">
-                    on {{ post.date | date_to_long_string}}
-                  </p>
-                </div>
-              </div>
-              <div class="content article-body">
-                {{ post.excerpt }}
-              </div>
-            </div>
+{% for post in site.posts %}
+<!-- START ARTICLE -->
+<section class="articles">
+  <div class="column is-9 is-offset-1">
+    <div class="card article">
+      <div class="card-content">
+        <div class="media">
+          <div class="media-center">
+            <img src="/images/cli-brand.png" class="author-image" alt="cli icon">
           </div>
-          <!-- END ARTICLE -->
+          <div class="media-content has-text-centered">
+            <p class="title article-title"><a href="{{ site.baseurl }}{{ post.url | absolute_url }}">{{ post.title }}</a></p>
+            <p class="subtitle is-6 article-subtitle">
+              on {{ post.date | date_to_long_string }}
+            </p>
+          </div>
+        </div>
+        <div class="content article-body">
+          {{ post.excerpt }}
+        </div>
       </div>
+    </div>
+  </div>
 </section>
-  {% endfor %}
+<!-- END ARTICLE -->
+{% endfor %}
