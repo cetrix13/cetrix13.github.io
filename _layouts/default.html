@@ -11,52 +11,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   </head>
   <body>
-    <!-- Begin Navigation -->
-    <nav class="navbar is-transparent is-spaced" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img src="/images/cli-brand.png" alt="{{ site.name }}" >
-        </a>
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-      <div class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="{{ site.baseurl }}/">
-            Portfolio
-          </a>
-          <a class="navbar-item" href="{{ site.baseurl }}/">
-            Contacts
-          </a>
-        </div>
-        <div class="navbar-end">
-          <a class="navbar-item is-hidden-mobile" href="https://github.com/cetrix13" target="_blank">
-            <span class="icon" style="color: #333;">
-              <i class="fab fa-lg fa-github-alt"></i>
-            </span>
-          </a>
-          <a class="navbar-item is-hidden-mobile" href="https://twitter.com/cetrix13" target="_blank">
-            <span class="icon" style="color: #55acee;">
-              <i class="fab fa-lg fa-twitter"></i>
-            </span>
-          </a>
-          <a class="navbar-item is-hidden-mobile" href="https://www.linkedin.com/in/dadykin" target="_blank">
-            <span class="icon" style="color: #55acee;">
-              <i class="fab fa-lg fa-linkedin"></i>
-            </span>
-          </a>
-          <a class="navbar-item is-hidden-mobile" href="https://www.facebook.com/dadykin.aleksandr" target="_blank">
-            <span class="icon" style="color: #55acee;">
-              <i class="fab fa-lg fa-facebook"></i>
-            </span>
-          </a>
-        </div>
-      </div>
-    </nav>
-    <!-- End Navigation -->
+    {% include nav.html %}
     {% include page.html %}
     <footer class="footer ">
       <div class="container">
