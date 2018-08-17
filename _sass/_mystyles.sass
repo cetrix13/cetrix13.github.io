@@ -66,10 +66,6 @@ div.column.is-8:first-child
   bottom: 0
   left: 0
   overflow: hidden
-  min-width: 100%
-  min-height: 100%
-  width:auto
-  height:auto
 
 .fullscreen-bg__video
   position: absolute
@@ -80,4 +76,10 @@ div.column.is-8:first-child
   width:auto
   height:auto
 
+@media (max-width: 767px)
+  .fullscreen-bg
+    background: url('/images/intro-poster.jpg') center center / cover no-repeat
+
+  .fullscreen-bg__video
+    display: none
 
