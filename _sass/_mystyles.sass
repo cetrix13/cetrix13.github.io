@@ -18,14 +18,12 @@ div.column.is-8:first-child
   margin-top: 1rem
 
 figcaption
-  position: absolute
+  position: relative
   background: rgba(0,0,0,0.4)
   color: #fff
   width: 100%
-  padding: .6rem
+  padding: .3rem
 
-.transparent-divider
-  height: 3.0rem
 // For bloggging, post creation
 
 // Skills sections
@@ -36,18 +34,18 @@ figcaption
 .skills-list li
   margin-top: 0.2em
 
+@media (max-width: 767px)
+  .skills-list
+    margin-top: 1.3rem
+
 // Backround video
 .fullscreen-bg
   position: relative
-  top: 0
-  right: 0
-  bottom: 0
-  left: 0
   overflow: hidden
 
 .fullscreen-bg__video
   position: absolute
-  top: 0
+  top: -100px
   left: 0
   min-width: 100%
   min-height: 100%
@@ -60,4 +58,3 @@ figcaption
 
   .fullscreen-bg__video
     display: none
-
