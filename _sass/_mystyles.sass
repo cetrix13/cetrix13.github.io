@@ -9,6 +9,8 @@ body
   background-color: #fcfbf7
   -webkit-font-smoothing: antialiased
   -moz-font-smoothing: antialiased
+  overflow-x: hidden
+
 
 div.column.is-8:first-child
   padding-top: 0
@@ -34,10 +36,6 @@ figcaption
 .skills-list li
   margin-top: 0.2em
 
-@media (max-width: 767px)
-  .skills-list
-    margin-top: 1.3rem
-
 // Backround video
 .fullscreen-bg
   position: relative
@@ -45,16 +43,14 @@ figcaption
 
 .fullscreen-bg__video
   position: absolute
-  top: -100px
   left: 0
   min-width: 100%
   min-height: 100%
   width:auto
   height:auto
+  object-fit: fill
+  object-position: 50% 50%
 
 @media (max-width: 767px)
-  .fullscreen-bg
-    background: url('/images/intro-poster.jpg') center center / cover no-repeat
-
-  .fullscreen-bg__video
-    display: none
+  .skills-list
+    margin-top: 1.6rem
