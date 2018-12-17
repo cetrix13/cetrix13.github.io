@@ -1,9 +1,4 @@
 <div class="hero is-medium fullscreen-bg is-marginless">
-<!--    <video loop muted autoplay poster="/images/intro-poster.jpg" class="fullscreen-bg__video">
-        <source src="/video/intro-yellow.mp4" type="video/mp4">
-        <source src="/video/intro-yellow.webm" type="video/webm">
-    </video>-->
-
     <!-- Begin Navigation -->
     <nav class="navbar is-transparent is-spaced is-tablet" aria-label="main navigation">
       <!--<div class="navbar-brand">
@@ -52,9 +47,16 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title has-text-white">Aleksandr Dadykin</h1>
+        {% if page.url == "/" %}
         <h2 class="subtitle has-text-white">
-        Back-end and front-end web developer, Pega BPM system architect, Pega decision consultant
+        {{ site.intro.en }}
         </h2>
+        {% endif %}
+        {% if page.url == "/hause/" %}
+        <h2 class="subtitle has-text-white">
+        {{ site.intro.de }}
+        </h2>
+        {% endif %}
       </div>
     </div>
   </section>

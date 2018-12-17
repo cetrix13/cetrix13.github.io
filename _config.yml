@@ -18,6 +18,11 @@ description:
   en: Web developer, Pega BPM architect
   de: Web-Entwickler, Pega-Entwickler
 
+intro:
+  en: Back-end and front-end web developer, Pega BPM system architect, Pega decision consultant
+  de: Backend und Frontend Web-Entwickler, Pega-Systemarchitekt, Pega Entscheidung Berater
+
+
 # Short bio or description (displayed in the header)
 # description: Web developer, Pega BPM architect
 
@@ -35,7 +40,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: cetrix13
+  github:
   instagram:
   linkedin:
   pinterest:
@@ -55,7 +60,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: "http://127.0.0.1:4000/"
+url: "https://cetrix13.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
