@@ -9,19 +9,10 @@ t:
   en:
     home:  "Home"
     url: "/"
+
   de:
     home:  "Hause"
     url: "/hause/"
-
-
-description:
-  en: Web developer, Pega BPM architect
-  de: Web-Entwickler, Pega-Entwickler
-
-intro:
-  en: Back-end and front-end web developer, Pega BPM system architect, Pega decision consultant
-  de: Backend und Frontend Web-Entwickler, Pega-Systemarchitekt, Pega Entscheidung Berater
-
 
 # Short bio or description (displayed in the header)
 # description: Web developer, Pega BPM architect

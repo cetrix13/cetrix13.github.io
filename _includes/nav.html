@@ -26,11 +26,6 @@
               <i class="fab fa-lg fa-github-alt"></i>
             </span>
           </a>
-          <a class="navbar-item is-hidden-mobile" href="https://twitter.com/cetrix13" target="_blank">
-            <span class="icon has-text-white">
-              <i class="fab fa-lg fa-twitter"></i>
-            </span>
-          </a>
           <a class="navbar-item is-hidden-mobile" href="https://www.linkedin.com/in/dadykin" target="_blank">
             <span class="icon has-text-white">
               <i class="fab fa-lg fa-linkedin"></i>
@@ -47,16 +42,7 @@
     <div class="hero-body">
       <div class="container">
         <h1 class="title has-text-white">Aleksandr Dadykin</h1>
-        {% if page.url == "/" %}
-        <h2 class="subtitle has-text-white">
-        {{ site.intro.en }}
-        </h2>
-        {% endif %}
-        {% if page.url == "/hause/" %}
-        <h2 class="subtitle has-text-white">
-        {{ site.intro.de }}
-        </h2>
-        {% endif %}
+        <h2 class="subtitle has-text-white">{{ page.intro }}</h2>
       </div>
     </div>
   </section>
