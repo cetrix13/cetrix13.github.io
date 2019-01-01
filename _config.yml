@@ -9,10 +9,12 @@ t:
   en:
     home:  "Home"
     url: "/"
-
   de:
     home:  "Hause"
     url: "/hause/"
+  ru:
+    home:  "Home"
+    url: "/home/"
 
 # Short bio or description (displayed in the header)
 # description: Web developer, Pega BPM architect
