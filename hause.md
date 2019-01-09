@@ -13,7 +13,7 @@ code_description: "Bitte sehen Sie sich meinen Repositorien an | oder | und | Ko
 contact_me: "E-mail senden"
 skills: "Erfahrener PHP-Entwickler - PHP 7.3, Laravel | Zertifizierter Pega Entscheidung Berater - prädiktive Modelle |
 Erfahrung im Umgang mit Datenbanken - MySQL, PostgreSQL | Erfahrener Senior Pega BPM Entwickler - SLA, UI |
-Webseiten mit Wordpress oder 1C Bitrix | Erfahrener JavaScript Entwickler - Vue.js, jQuery |
+Webseiten mit Wordpress oder 1C Bitrix | Erfahrener JavaScript Entwickler - Vue.js, React.js, jQuery |
 Abgeschlossener Kurs über Pega Robotics - RPA, RDA | Fließend Russisch und Englisch, Deutsch auf dem Niveau A2"
 ---
 
