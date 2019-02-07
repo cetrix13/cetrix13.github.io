@@ -9,7 +9,7 @@ description_megaholod: "Responsive Webseite mit Produktkatalog, Ajax und 2Gis-Ka
 skills_title: Fähigkeiten
 project_title: Webseiten
 code_title: Codebeispiele
-code_description: "Sehen Sie bitte meine | oder | und | Repositorien an."
+code_description: "Schauen Sie bitte meine | oder | und | Repositorien an."
 contact_me: "E-Mail senden"
 skills: "Erfahrener PHP-Entwickler - PHP 7.3, Laravel | Zertifizierter Pega Entscheidung Berater - prädiktive Modelle |
 Erfahrung im Umgang mit Datenbanken - MySQL, PostgreSQL | Erfahrener Senior Pega BPM Entwickler - SLA, UI |
