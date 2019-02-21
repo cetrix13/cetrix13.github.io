@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: de
+intro_class: "fullscreen-bg"
 my_name: "Aleksandr Dadykin"
 description: "Web-Entwickler, Pega-Entwickler"
 intro: Backend und Frontend Web-Entwickler, Pega-Systemarchitekt, Pega Entscheidung Berater

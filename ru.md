@@ -1,6 +1,7 @@
 ---
 layout: default
 lang: ru
+intro_class: "fullscreen-bg"
 description: "Веб-разработчик, Pega БПМ архитектор"
 my_name: "Александр Дадыкин"
 description_flatvision: "Адаптивный сайт, Ajax-формы для заказов."
