@@ -6,10 +6,19 @@ $navbar-padding-vertical: 0.5rem
 $body-background-color: #fcfbf7
 
 // General
+html
+  height: 100%
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
 body
   -webkit-font-smoothing: antialiased
   -moz-font-smoothing: antialiased
   overflow-x: hidden
+  position: relative
+  min-height: 100%
 
 
 div.column.is-8:first-child
@@ -36,8 +45,17 @@ div.column.is-8:first-child
 
 .footer
   padding: 3rem 1.5rem 3rem !important
+  position: absolute
+  right: 0
+  bottom: 0
+  left: 0
 
 // For bloggging, post creation
+
+// Navigation
+.navbar-start a
+  color: #fff
+
 
 // Flags
 a.lang
@@ -95,17 +113,25 @@ span.flag-icon
 @media (max-width: 760px)
   .fullscreen-bg
     background: url(/images/intro-caspar-rubin-760x507.jpg) no-repeat center center
+  .blog-bg
+    background: url(/images/intro-blog-bg-1800x420.jpg) no-repeat center center
   .skills-list
     margin-top: 1.5rem
 
 @media (max-width: 1440px) and (min-width: 761px)
   .fullscreen-bg
     background: url(/images/intro-caspar-rubin-1440x450.jpg) no-repeat center center
+  .blog-bg
+    background: url(/images/intro-blog-bg-1440x450.jpg) no-repeat center center
 
 @media (max-width: 1800px) and (min-width: 1441px)
   .fullscreen-bg
     background: url(/images/intro-caspar-rubin-1800x420.jpg) no-repeat center center
+  .blog-bg
+    background: url(/images/intro-blog-bg-1800x420.jpg) no-repeat center center
 
 @media (max-width: 3000px) and (min-width: 1801px)
   .fullscreen-bg
     background: url(/images/intro-caspar-rubin-3000x420.jpg) no-repeat center center
+  .blog-bg
+    background: url(/images/intro-blog-bg-1800x420.jpg) no-repeat center center
