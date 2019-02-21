@@ -1,0 +1,12 @@
+{% assign code_description = page.code_description | split: "|" %}
+{% assign skills = page.skills | split: "|" %}
+<hr>
+<div class="columns">
+  <div class="column is-10 is-offset-1-tablet">
+  <ul>
+    {% for post in site.posts %}
+    <li><time datetime="{{ post.date }}">{{ post.date | date: "%b %d, %Y" }}</time> | <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+
+  </ul>
+</div></div>
