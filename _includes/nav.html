@@ -1,45 +1,47 @@
+<!-- Begin Intro -->
 <div class="hero is-medium is-marginless {{ page.intro_class }}">
-    <!-- Begin Navigation -->
-    <nav class="navbar is-transparent is-spaced is-tablet" aria-label="main navigation">
-      <!--<div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img src="/images/cli-brand.png" alt="{{ site.name }}" >
+  <!-- Begin Navigation -->
+  <nav class="navbar is-transparent is-spaced is-tablet" aria-label="main navigation">
+    <!--<div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/images/cli-brand.png" alt="{{ site.name }}" >
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>-->
+    <div class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="{{ site.baseurl }}/">
+          Main
         </a>
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+        <a class="navbar-item" href="{{ '/de/blog' | prepend:site.baseurl }}/">
+          Blog
         </a>
-      </div>-->
-      <div class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item" href="{{ site.baseurl }}/">
-            Main
-          </a>
-          <a class="navbar-item" href="{{ '/de/blog' | prepend:site.baseurl }}/">
-            Blog
-          </a>
-        </div>
-        <div class="navbar-end">
-          <a class="navbar-item is-hidden-mobile" href="https://github.com/cetrix13" target="_blank">
-            <span class="icon has-text-white">
-              <i class="fab fa-lg fa-github-alt"></i>
-            </span>
-          </a>
-          <a class="navbar-item is-hidden-mobile" href="https://www.linkedin.com/in/dadykin" target="_blank">
-            <span class="icon has-text-white">
-              <i class="fab fa-lg fa-linkedin"></i>
-            </span>
-          </a>
-          <a href="{{ site.t.ru.url }}" class="navbar-item is-hidden-mobile lang">
-            <span class="flag-icon flag-icon-ru"></span>ru</a>
+      </div>
+      <div class="navbar-end">
+        <a class="navbar-item is-hidden-mobile" href="https://github.com/cetrix13" target="_blank">
+          <span class="icon has-text-white">
+            <i class="fab fa-lg fa-github-alt"></i>
+          </span>
+        </a>
+        <a class="navbar-item is-hidden-mobile" href="https://www.linkedin.com/in/dadykin" target="_blank">
+          <span class="icon has-text-white">
+            <i class="fab fa-lg fa-linkedin"></i>
+          </span>
+        </a>
+        <a href="{{ site.t.ru.url }}" class="navbar-item is-hidden-mobile lang">
+          <span class="flag-icon flag-icon-ru"></span>ru</a>
           <a href="{{ site.t.en.url }}" class="navbar-item is-hidden-mobile lang">
             <span class="flag-icon flag-icon-us"></span>en</a>
-          <a href="{{ site.t.de.url }}" class="navbar-item is-hidden-mobile lang">
-            <span class="flag-icon flag-icon-de"></span>de</a>
-	</div></div>
-    </nav>
-    <!-- End Navigation -->
+            <a href="{{ site.t.de.url }}" class="navbar-item is-hidden-mobile lang">
+              <span class="flag-icon flag-icon-de"></span>de</a>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation -->
   <section class="hero is-medium">
     <div class="hero-body">
       <div class="container">
@@ -48,4 +50,5 @@
       </div>
     </div>
   </section>
-  </div>
+</div>
+<!-- End Intro -->
