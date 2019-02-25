@@ -2,16 +2,6 @@
 <div class="hero is-medium is-marginless {{ page.intro_class }}">
   <!-- Begin Navigation -->
   <nav class="navbar is-transparent is-spaced is-tablet" aria-label="main navigation">
-    <!--<div class="navbar-brand">
-      <a class="navbar-item" href="/">
-        <img src="/images/cli-brand.png" alt="{{ site.name }}" >
-      </a>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>-->
     <div class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item" href="{{ site.baseurl }}/">
@@ -41,14 +31,14 @@
       </div>
     </div>
   </nav>
-  <!-- End Navigation -->
+  <!--\ End Navigation -->
   <section class="hero is-medium">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title has-text-white">{{ page.my_name }}</h1>
-        <h2 class="subtitle has-text-white">{{ page.intro }}</h2>
+        <h1 class="title has-text-white">{{ page.my_name | default: "Blog" }}</h1>
+        <h2 class="subtitle has-text-white">{{ page.intro | default: "Für Deutsch zu lernen" }}</h2>
       </div>
     </div>
   </section>
 </div>
-<!-- End Intro -->
+<!--\ End Intro -->
