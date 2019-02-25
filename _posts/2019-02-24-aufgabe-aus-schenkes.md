@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Aufgaben aus Schenkes Buch
+title: Aufgabe aus Schenkes Buch
 date: 2019-02-24 14:16:01 +0300
 intro_class: 'blog-bg'
 ---
 
 ### <span class="shadow is-red">Wortschatz</span>
 {:.title.is-5}
-*die Oper*{:.red} - an opera; *der Fehler*{:.blue} - mistake; *die Daten*{:.red} - data; *der Regenschirm*{:.blue} - umbrella
+*die Oper*{:.red} - an opera; *der Fehler*{:.blue} - mistake; *die Daten*{:.red} - data; *der Regenschirm*{:.blue} - umbrella;
+*der Feierabend*{:.blue} - closing time;
 
 ****
 
@@ -17,3 +18,4 @@ intro_class: 'blog-bg'
 * Alle erledigt - all done
 * Er arbeitet **nicht** gern während den Ferien - he doesn't like to work at holidays
 * Ich arbeite **bei** Siemens - I work at Siemens
+* Um wie viel Uhr beginnt dein Arbeitstag - What time does your work day start?
