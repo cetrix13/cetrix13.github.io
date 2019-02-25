@@ -1,60 +1,37 @@
-// Variables
-$navbar-item-img-max-height: 2.5rem
-$family-primary: 'Montserrat', 'Helvetica', 'Arial', sans-serif
-$navbar-height: 2.25rem
-$navbar-padding-vertical: 0.5rem
-$body-background-color: #fcfbf7
-$link-hover: #3273dc
-
-// General
+//-----------------------------------------------
+//  Allgemeines
+//-----------------------------------------------
 html
   height: 100%
-  box-sizing: border-box
-
-*, *:before, *:after
-  box-sizing: inherit
 
 body
-  -webkit-font-smoothing: antialiased
-  -moz-font-smoothing: antialiased
   overflow-x: hidden
   position: relative
   min-height: 100%
-  padding-bottom: 3rem !important
-
-a:hover
-  text-decoration: underline
-
-div.column.is-8:first-child
-  padding-top: 0
-  margin-top: 0
-
-.subtitle
-  margin-top: 1rem
-
-.img-title
-  position: relative
-  background: rgba(0,0,0,0.4)
-  color: #fff
-  width: 100%
-  padding: .3rem
-
-.box
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,.1)
-  background-color: #f5f5f5
-
-.emoji-envelope
-  font-size: 1.8rem
-  vertical-align: middle
+  padding-bottom: 3rem
 
 .footer
-  padding: 1.5rem 1.5rem !important
+  padding: 1.5rem 1.5rem
   position: absolute
   right: 0
   bottom: 0
   left: 0
 
-// For bloggging, post creation
+// Navigation und Flaggen
+.navbar-start a, a.lang
+  color: #fff
+
+.flag-icon
+  margin-right: .3rem
+
+// Kontakt
+.emoji-envelope
+  font-size: 1.8rem
+  vertical-align: middle
+
+//-----------------------------------------------
+//  Für Blog
+//-----------------------------------------------
 .date
   margin: 1.2rem 0
 
@@ -65,7 +42,7 @@ div.column.is-8:first-child
   margin: .5rem 0
 
 .shadow.is-red
-    box-shadow: inset 0 -6px 0 rgba(255,74,110,.2)
+  box-shadow: inset 0 -6px 0 rgba(255,74,110,.2)
 
 .blue
   color: #0079c1
@@ -79,21 +56,7 @@ div.column.is-8:first-child
 .yellow
   color: #ffd900
 
-
-// Navigation
-.navbar-start a
-  color: #fff
-
-
-// Flags
-a.lang
-  color: #fff
-
-span.flag-icon
-  margin-right: .3rem
-
-// Projects section
-
+// Projektabschnitt
 .card-content
   padding: 1rem
 
@@ -101,66 +64,58 @@ span.flag-icon
   margin-bottom: .8rem
 
 .card
-  border-radius: .3rem !important
+  border-radius: .3rem
   background-color: #fcfbf7
 
-// Skills sections
-//.skills-list
- // list-style: none
- // margin-left: 0.3rem
+.img-title
+  position: relative
+  background: rgba(0,0,0,.4)
+  color: #fff
+  width: 100%
+  padding: .3rem
 
+.box
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.1)
+  background-color: #f5f5f5
+
+// Fähigkeiten
 .ribbon
-  top: 0.3rem
+  top: .3rem
 
 .skills-list li
   margin-top: 1rem
 
-.skills-list
-  margin-top: 1.5rem
-// Backround video
-//.fullscreen-bg
- // position: relative
- // overflow: hidden
-
-.btnSend
-  display: flex
-
-.btnSend > button
-  justify-content: flex-end
-  margin-left: auto
-
-
-
-.fullscreen-bg
-  -webkit-background-size: cover
-  -moz-background-size: cover
-  -o-background-size: cover
-  background-size: cover
-
-
-@media (max-width: 760px)
+//-----------------------------------------------
+//  Intro
+//-----------------------------------------------
+@media screen and (max-width: 760px)
   .fullscreen-bg
     background: url(/images/intro-caspar-rubin-760x507.jpg) no-repeat center center
+    background-size: cover
   .blog-bg
     background: url(/images/intro-blog-bg-1800x420.jpg) no-repeat center center
-  .skills-list
-    margin-top: 1.5rem
+    background-size: cover
 
-@media (max-width: 1440px) and (min-width: 761px)
+@media screen and (max-width: 1440px) and (min-width: 761px)
   .fullscreen-bg
     background: url(/images/intro-caspar-rubin-1440x450.jpg) no-repeat center center
+    background-size: cover
   .blog-bg
     background: url(/images/intro-blog-bg-1440x450.jpg) no-repeat center center
+    background-size: cover
 
-@media (max-width: 1800px) and (min-width: 1441px)
+@media screen and (max-width: 1800px) and (min-width: 1441px)
   .fullscreen-bg
     background: url(/images/intro-caspar-rubin-1800x420.jpg) no-repeat center center
+    background-size: cover
   .blog-bg
     background: url(/images/intro-blog-bg-1800x420.jpg) no-repeat center center
+    background-size: cover
 
-@media (max-width: 3000px) and (min-width: 1801px)
+@media screen and (max-width: 3000px) and (min-width: 1801px)
   .fullscreen-bg
     background: url(/images/intro-caspar-rubin-3000x420.jpg) no-repeat center center
+    background-size: cover
   .blog-bg
     background: url(/images/intro-blog-bg-1800x420.jpg) no-repeat center center
     background-size: cover

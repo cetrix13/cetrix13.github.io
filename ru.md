@@ -4,6 +4,8 @@ lang: ru
 intro_class: "fullscreen-bg"
 description: "Веб-разработчик, Pega БПМ архитектор"
 my_name: "Александр Дадыкин"
+main: Главная
+blog: Блог
 description_flatvision: "Адаптивный сайт, Ajax-формы для заказов."
 description_megaholod: "Адаптивный сайт, Ajax-формы и карта от 2Gis."
 intro: Фронтенд и бэкенд веб-разработчик, Пега БПМ архитектор, Пега консультант

@@ -3,6 +3,8 @@ layout: default
 lang: de
 intro_class: "fullscreen-bg"
 my_name: "Aleksandr Dadykin"
+main: Startseite
+blog: Blog
 description: "Web-Entwickler, Pega-Entwickler"
 intro: Backend und Frontend Web-Entwickler, Pega-Systemarchitekt, Pega Entscheidung Berater
 description_flatvision: "Responsive Webseite, Ajax Formen und Bildbearbeitung."
