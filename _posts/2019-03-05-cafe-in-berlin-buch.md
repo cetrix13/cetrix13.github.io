@@ -1,8 +1,5 @@
 ---
-layout: post
-title: Buch Cafe in Berlin  
-date: 2019-03-05 14:16:01 +0300
-intro_class: 'blog-bg'
+title: Buch Cafe in Berlin
 ---
 
 ### <span class="shadow is-red">Wortschatz</span>

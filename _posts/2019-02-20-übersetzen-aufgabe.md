@@ -1,8 +1,5 @@
 ---
-layout: post
 title: Übersetzen aufgabe
-date: 2019-02-20 14:16:01 +0300
-intro_class: 'blog-bg'
 ---
 
 ### <span class="shadow is-red">Wortschatz</span>

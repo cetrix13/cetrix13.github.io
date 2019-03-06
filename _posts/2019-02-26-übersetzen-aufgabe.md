@@ -1,13 +1,10 @@
 ---
-layout: post
 title: Übersetzen Aufgabe
-date: 2019-02-26 14:16:01 +0300
-intro_class: 'blog-bg'
 ---
 
 ### <span class="shadow is-red">Wortschatz</span>
 {:.title.is-5}
-*die Abschlussprüfung*{:.red} - final exam; *der Bericht*{:.blue} - report; *das Schnäppchen*{:.green} - bargain; 
+*die Abschlussprüfung*{:.red} - final exam; *der Bericht*{:.blue} - report; *das Schnäppchen*{:.green} - bargain;
 *die Laune*{:.red} - mood;
 
 ****

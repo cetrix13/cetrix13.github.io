@@ -1,8 +1,5 @@
 ---
-layout: post
 title: Update des Tages
-date: 2019-02-21 14:16:01 +0300
-intro_class: 'blog-bg'
 ---
 
 ### <span class="shadow is-red">Wortschatz</span>

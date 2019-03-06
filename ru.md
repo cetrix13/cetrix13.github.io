@@ -1,5 +1,4 @@
 ---
-layout: default
 lang: ru
 intro_class: "fullscreen-bg"
 description: "Веб-разработчик, Pega БПМ архитектор"

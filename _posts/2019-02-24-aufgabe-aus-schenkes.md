@@ -1,8 +1,5 @@
 ---
-layout: post
 title: Aufgabe aus Schenkes Buch
-date: 2019-02-24 14:16:01 +0300
-intro_class: 'blog-bg'
 ---
 
 ### <span class="shadow is-red">Wortschatz</span>

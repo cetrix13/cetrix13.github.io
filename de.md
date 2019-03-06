@@ -1,5 +1,4 @@
 ---
-layout: default
 lang: de
 intro_class: "fullscreen-bg"
 my_name: "Aleksandr Dadykin"

@@ -1,8 +1,5 @@
 ---
-layout: post
 title: Aufgabe aus Schenkens
-date: 2019-03-01 14:16:01 +0300
-intro_class: 'blog-bg'
 ---
 
 ### <span class="shadow is-red">Wortschatz</span>
