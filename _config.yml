@@ -12,6 +12,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      intro_class: 'blog-bg'
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
 # Name of your site (displayed in the header)
 name: Aleksandr Dadykin
 
