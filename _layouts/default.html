@@ -13,8 +13,14 @@
   </head>
   <body>
     {% include nav.html %}
-    {% include page.html %}
-    {% include contact.html %}
+    {% if page.path == 'index.html' %}
+      {% include page.html %}
+      {% include contact.html %}
+    {% elsif page.path == 'blog.md' %}
+      {% include posts.html %}
+    {% elsif page.path contains '_posts/' %}
+      {% include post.html %}
+    {% endif %}
     {% include footer.html %}
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src="{{ site.baseurl }}/assets/lightbox-plus-jquery.min.js"></script>

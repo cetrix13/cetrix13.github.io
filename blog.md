@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: default
 lang: de
 intro_class: "blog-bg"
 description: "Blog"

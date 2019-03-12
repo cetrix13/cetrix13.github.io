@@ -18,7 +18,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "default"
       intro_class: 'blog-bg'
   -
     scope:
