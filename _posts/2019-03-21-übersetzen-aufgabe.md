@@ -4,7 +4,7 @@ title: Übersetzen aufgabe
 
 ### <span class="shadow is-red">Wortschatz</span>
 {:.title.is-5}
-verhinderen - prevent; standartmäßig - by default; die Nuntzerbeschwerden{:.yellow} - users' complains; 
+verhinderen - prevent; standartmäßig - by default; *die Nuntzerbeschwerden*{:.yellow} - users' complains; 
 
 ****
 
