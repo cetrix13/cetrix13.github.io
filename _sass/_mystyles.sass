@@ -78,13 +78,14 @@ body
   box-shadow: 0 2px 5px 0 rgba(0,0,0,.1)
   background-color: #f5f5f5
 
+//-----------------------------------------------
 // Fähigkeiten
+//-----------------------------------------------
 .ribbon
   top: .3rem
 
 .skills-list li
   margin-top: 1rem
-
 
 @media screen and (min-width: 768px) and (max-width: 1280px)
   .ribbon.is-medium
@@ -96,9 +97,26 @@ body
   .title
     font-size: 1.6em
   .skills-list
-    margin-left: 1.5em    
+    margin-left: 1.2em    
   .tag:not(body)
-    font-size: 0.65em
+    font-size: 0.75em
+    padding-left: 0.55em
+    padding-right: 0.55em
+    &.is-medium
+      font-size: 0.9em
+
+@media screen and (max-width: 768px)
+  .skills-list
+    margin-left: 1em
+  .ribbon.is-medium
+    font-size: 1em
+  .tag:not(body)
+    padding-left: 0.55em
+    padding-right: 0.55em
+    &.is-medium
+      font-size: 0.75em
+  .title
+    font-size: 1.6em    
 
 //-----------------------------------------------
 //  Intro
