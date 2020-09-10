@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
   <head>
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ page.description }}</title>
     {% include meta.html %}
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -21,14 +20,9 @@
     {% endif %}
     {% include footer.html %}
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
-    <script src="{{ site.baseurl }}/assets/lightbox-plus-jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/medium-zoom.min.js"></script>
     <script>
-    lightbox.option({
-      'resizeDuration': 50,
-      'wrapAround': true,
-      'disableScrolling': true,
-      'fadeDuration': 300
-    })
+      mediumZoom('[data-zoomable]', { background: '#212530' });
     </script>
   </body>
 </html>
