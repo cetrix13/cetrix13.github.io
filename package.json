@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "sass": "sass  --no-source-map --style=compressed _sass/bulma.scss:assets/bulma.css",
+    "dev": "jekyll serve"
+  },
   "dependencies": {
     "bulma": "^0.9.0",
     "flag-icon-css": "^3.5.0",

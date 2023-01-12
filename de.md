@@ -13,10 +13,10 @@ project_title: Webseiten
 code_title: Codebeispiele
 code_description: "Schauen Sie bitte meine | oder | und | Repositorien an."
 contact_me: "E-Mail senden"
-skills: "Erfahrener PHP-Entwickler - PHP 7.4, Laravel | Pega Entscheidung Berater - prädiktive Modelle |
+skills: "Erfahrener PHP-Entwickler - PHP 8.2, Laravel | Pega Entscheidung Berater - prädiktive Modelle |
 Erfahrung mit Datenbanken - MySQL, PostgreSQL, Redis | Senior Pega BPM Entwickler - SLA, UI |
-Webseiten mit Wordpress oder 1C Bitrix | Erfahrener JavaScript Entwickler - Vue.js, React.js, jQuery |
-Abgeschlossener Kurs über Pega Robotics - RPA, RDA | Fließend Russisch und Englisch, Deutsch auf dem Niveau B2"
+Webseiten mit Wordpress oder 1C Bitrix | Erfahrener JavaScript Entwickler - Vue.js, React.js |
+Abgeschlossener Kurs über Pega Robotics - RPA, RDA | Fließend Russisch und Englisch, Deutsch auf Niveau B2"
 ---
 
 
