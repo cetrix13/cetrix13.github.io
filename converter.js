@@ -13,7 +13,7 @@ async function main() {
     title: originalTitle || title
   }))
   const res = { movies: moviesRes }
-  await fs.writeFile('./movies.json', JSON.stringify(res, null, 2))
+  await fs.writeFile('./movies.json', JSON.stringify(res, null, 2), (err) => err && console.error(err))
 }
 
 main()
